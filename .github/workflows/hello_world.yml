@@ -18,6 +18,7 @@ jobs:
         shell: bash
 
   goodbye:
+    needs: hello
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
